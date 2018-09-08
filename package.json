@@ -1,0 +1,31 @@
+{
+  "name": "hackathonbbva_alexa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && nodemon dist/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgramoxComida/hackathonbbva_alexa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProgramoxComida/hackathonbbva_alexa/issues"
+  },
+  "homepage": "https://github.com/ProgramoxComida/hackathonbbva_alexa#readme",
+  "dependencies": {
+    "ask-sdk": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
